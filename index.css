@@ -1,0 +1,68 @@
+body {
+    background: black;
+    color: white;
+    font-size: 30px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.calculator {
+    margin: auto;
+    height: 620px;
+    width: 450px;
+    border: 10px double white;
+    border-width: 10px;
+    padding: 10px;
+}
+
+.number {
+    display: block;
+    text-align: right;
+    color: white;
+    border-radius: 10px;
+    margin-right: 0 auto;
+    margin-left: 0 auto;
+    width: 98%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 70%;
+    font-size: 80px;
+}
+
+.buttons {
+    display: inline-block;
+    align-content: center;
+    width: 105px;
+    height: 105px;
+    font-size: 30px;
+    color: white;
+    background: purple;
+    background-image: linear-gradient(to bottom right, purple, red);
+    border-radius: 50%;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    margin-bottom: 10px;
+}
+
+.buttonClear {
+    display: inline-block;
+    align-content: center;
+    width: 100px;
+    height: 100px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+    background: red;
+    background-image: linear-gradient(to bottom right, blue, darkblue);
+    border-radius: 15%;
+    margin-left: 10px;
+}
+
+.buttons:hover,
+.buttonClear:hover {
+    cursor: pointer;
+}
+
